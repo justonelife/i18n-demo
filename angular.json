@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "i18n-demo": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "es-PR": "src/locale/messages.es.json"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,6 +23,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": [
+              "es-PR"
+            ],
             "outputPath": "dist/i18n-demo",
             "index": "src/index.html",
             "browser": "src/main.ts",

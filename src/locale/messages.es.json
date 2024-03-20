@@ -1,0 +1,14 @@
+{
+  "locale": "en-US",
+  "translations": {
+    "introductionHeader": "¡Hola i18n!\n",
+    "5206857922697139278": "No genero ningún elemento",
+    "392942015236586892": "Logotipo de Angular",
+    "4606963464835766483": "Actualizado {$ICU}",
+    "2002272803511843863": "{VAR_PLURAL, plural, =0 {justo ahora} =1 {hace un minuto} other {{INTERPOLATION} minutos atrás}}",
+    "3560311772637911677": "El autor es {$ICU}",
+    "7670372064920373295": "{VAR_SELECT, select, male {masculino} female {femenino} other {otro}}",
+    "3967965900462880190": "Actualizado: {$ICU}\n",
+    "2508975984005233379": "{VAR_PLURAL, plural, =0 {justo ahora} =1 {hace un minuto} other {{INTERPOLATION} minutos atrás por {VAR_SELECT, select, male {masculino} female {femenino} other {otro}}}}"
+  }
+}
